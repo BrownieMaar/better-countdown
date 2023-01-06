@@ -1,0 +1,15 @@
+:root {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  --foreground-color: white;
+  --background-color: black;
+  
+  overflow-y: hidden;
+  
+  color: var(--foreground-color);
+  background-color: var(--background-color);
+}
+
+#root {
+  height: 100vh;
+}

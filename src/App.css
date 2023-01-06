@@ -1,0 +1,61 @@
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.clock {
+  font-size: 20vw;
+  height: fit-content;
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+  transition: background-color .3s;
+
+  margin: 0 .2rem;
+  padding: .5rem .5rem;
+
+  border: 1px solid var(--foreground-color);
+  border-radius: 5px;
+  font-size: medium;
+}
+
+button:hover {
+  background-color: #ffffff20;
+  transition: background-color .3s;
+  cursor: pointer;
+}
+
+.buttons {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.options {
+  display: flex;
+  flex-direction: column;
+  transition: all .5s;
+}
+
+.option {
+  text-align: left;
+  cursor: pointer;
+  padding: .2rem .8rem;
+}
+
+.option:hover {
+  background-color: grey;
+}
+
+.option.inactive {
+  filter: brightness(0.6);
+}
+
